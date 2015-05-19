@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script type="text/javascript" src="index.js">
+
+    </script>
+    <style type="text/css">
+      td, label, div#idResults
+      {
+      font-family: 'Noto Sans UI', sans-serif;
+      font-size: 11pt;
+      }
+    </style>
+
+  </head>
+  <body style="width: 450px;">
+    <div id="nameSearch">
+      <label style="margin-left: 5px;">Search for a name: <input type="text" id="nameSearchInput" /></label>
+      <button id="reverseButton">
+	Reverse lookup
+      </button>
+      <br />
+      <div style="overflow-y: auto;">
+	<table id="results0">
+	</table>
+
+	<table id="results1">
+	</table>
+
+	<table id="results2">
+	</table>
+      </div>
+    </div>
+
+    <div id="idSearch" style="display: none">
+      <label style="margin-left: 5px;">Search for an id: <input type="text" id="idSearchInput" /></label>
+      <button id="nameButton">
+	Name lookup
+      </button>
+      <br />
+      <div id="idResults">
+
+      </div>
+    </div>
+    <script type="text/javascript" src="/popup.js"></script>
+  </body>
+  </html>
